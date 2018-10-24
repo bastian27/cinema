@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_SCL.Android", "Cinema_SCL\Cinema_SCL.Android\Cinema_SCL.Android.csproj", "{CC5C868B-F977-494A-A796-BB57F761153E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cinema_SCL", "Cinema_SCL\Cinema_SCL\Cinema_SCL.csproj", "{95BAB705-D95A-4588-995C-45460F70148B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC5C868B-F977-494A-A796-BB57F761153E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5C868B-F977-494A-A796-BB57F761153E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5C868B-F977-494A-A796-BB57F761153E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{CC5C868B-F977-494A-A796-BB57F761153E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5C868B-F977-494A-A796-BB57F761153E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5C868B-F977-494A-A796-BB57F761153E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{95BAB705-D95A-4588-995C-45460F70148B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95BAB705-D95A-4588-995C-45460F70148B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95BAB705-D95A-4588-995C-45460F70148B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95BAB705-D95A-4588-995C-45460F70148B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95BAB705-D95A-4588-995C-45460F70148B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95BAB705-D95A-4588-995C-45460F70148B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DEA3475-E391-4DD4-A7AB-8D068E68A3DE}
+	EndGlobalSection
+EndGlobal

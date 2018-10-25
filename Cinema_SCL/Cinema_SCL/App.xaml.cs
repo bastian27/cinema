@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cinema_SCL.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace Cinema_SCL
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new CarteleraPage();
         }
 
         protected override void OnStart()

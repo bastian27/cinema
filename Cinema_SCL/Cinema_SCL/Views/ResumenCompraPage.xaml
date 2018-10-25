@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Cinema_SCL.Views.ResumenCompraPage">
+
+    <StackLayout Orientation="Vertical">
+        <Image Source="{Binding Imagen}" HorizontalOptions="Center" />
+        <Label Text="Pelicula" FontAttributes="Bold"/>
+        <Grid>
+            <Label Grid.Column="0" Grid.Row="0" Text="Titulo" />
+            <Label Grid.Column="1" Grid.Row="0" Text="{Binding Nombre}" />
+            <Label Grid.Column="0" Grid.Row="1" Text="Fecha" />
+            <Label Grid.Column="1" Grid.Row="1" Text="{Binding Fechaestreno}" />
+        </Grid>
+        <Label Text="Función" FontAttributes="Bold"/>
+        <Grid>
+            <Label Grid.Column="0" Grid.Row="0" Text="Cinema" />
+            <Label Grid.Column="1" Grid.Row="0" Text="{Binding Cinema}" />
+            <Label Grid.Column="0" Grid.Row="1" Text="Sala" />
+            <Label Grid.Column="1" Grid.Row="1" Text="{Binding Sala}" />
+            <Label Grid.Column="0" Grid.Row="2" Text="Ciudad" />
+            <Label Grid.Column="1" Grid.Row="2" Text="{Binding Ciudad}" />
+        </Grid>
+        <Label Text="Tiquetes" FontAttributes="Bold"/>
+        <Grid>
+            <Label Grid.Column="0" Grid.Row="0" Text="Precio" />
+            <Label Grid.Column="1" Grid.Row="0" Text="{Binding Precio}" />
+            <Label Grid.Column="0" Grid.Row="1" Text="Cantidad" />
+            <Label Grid.Column="1" Grid.Row="1" Text="{Binding Cantidad}" />
+            <Label Grid.Column="0" Grid.Row="2" Text="Total a Pagar" FontAttributes="Bold" />
+            <Label Grid.Column="1" Grid.Row="2" Text="{}" />
+        </Grid>
+    </StackLayout>
+</ContentPage>

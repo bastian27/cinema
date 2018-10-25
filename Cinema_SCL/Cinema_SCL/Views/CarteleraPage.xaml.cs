@@ -34,5 +34,11 @@ namespace Cinema_SCL.Views
                 listPeliculas.ItemsSource = response;
             }
         }
+
+        private async void listPeliculas_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var pelicula = e.SelectedItem as Cartelera;
+           await Navigation.PushAsync(new FuncionesPage(pelicula));
+        }
     }
 }

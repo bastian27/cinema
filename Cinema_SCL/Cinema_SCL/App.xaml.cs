@@ -12,7 +12,7 @@ namespace Cinema_SCL
         {
             InitializeComponent();
 
-            MainPage = new CarteleraPage();
+            MainPage = new NavigationPage (new CarteleraPage());
         }
 
         protected override void OnStart()
